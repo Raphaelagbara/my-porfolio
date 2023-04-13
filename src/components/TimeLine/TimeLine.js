@@ -46,7 +46,8 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        My journey
+        My name is Raphael Agbara, I am a graduate of Computer Science from Kaduna State University.
+        I am  certified Fullstack Developer looking forward to adding value to any organization that needs my skills and experience.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
