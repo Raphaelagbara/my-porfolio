@@ -1,8 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import {
+  Section,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import Button from "../../styles/GlobalComponents/Button";
+import { LeftSection } from "./HeroStyles";
 
 const Hero = (props) => (
   <Section row nopadding>
@@ -22,7 +26,7 @@ const Hero = (props) => (
           a strong understanding of software development principles and
           practices, including Agile methodologies and test-driven development,
           and I am passionate about delivering high-quality, user-focused
-          solutions that meet business needs. 
+          solutions that meet business needs.
         </p>
       </SectionText>
       <Button>Learn More</Button>

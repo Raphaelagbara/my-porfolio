@@ -9,7 +9,14 @@ const Header = () => (
   <Container>
     <Div1>
       <Link href="/" passHref={true} legacyBehavior={true}>
-        <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom:'20px' }}>
+        <a
+          style={{
+            display: "flex",
+            alignItems: "center",
+            color: "white",
+            marginBottom: "20px",
+          }}
+        >
           <DiCssdeck size="3rem" />
           <Span>Raphael Agbara</Span>
         </a>
@@ -36,10 +43,10 @@ const Header = () => (
       <SocialIcons href="https://github.com/Raphaelagbara">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="">
+      <SocialIcons href="https://www.linkedin.com/in/raphael-agbara-0a34711ab/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="">
+      <SocialIcons href="#">
         <AiFillTwitterCircle size="3rem" />
       </SocialIcons>
     </Div3>
